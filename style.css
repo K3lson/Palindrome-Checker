@@ -1,10 +1,10 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: 'Poppins', sans-serif;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 body {
@@ -23,7 +23,8 @@ body {
 }
 
 header h1 {
-    font-size: 2em;
+    text-align: center;
+    font-size: 1.8em;
     font-weight: 700;
 }
 
@@ -36,6 +37,7 @@ header p {
 .inputs {
     margin: 20px 0 27px;
 }
+
 .inputs input {
     width: 100%;
     height: 50px;
@@ -45,9 +47,11 @@ header p {
     border-radius: 5px;
     border: 1px solid #999;
 }
+
 .inputs input:focus {
-    box-shadow: 0 3px 6px rgba(0,0,0,0.15);
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.15);
 }
+
 .inputs button {
     width: 100%;
     height: 56px;
